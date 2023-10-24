@@ -2,7 +2,7 @@ package org.example;
 
 public class CalcMethods {
     static double f(double x){
-        return 3*x+1; // наша функция
+        return Math.sin(Math.pow(x,2)); // наша функция
     }
     static double Left_Rect(double a, double b, int n){
         double h = (b - a)/n;
